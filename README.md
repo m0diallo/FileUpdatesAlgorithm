@@ -1,4 +1,4 @@
-# FileUpdatesAlgorithm
+# File Updates Algorithm
 
 ## Description
 This project defines a Python function named `update_file` that takes in two parameters: `import_file` (the file to be updated) and `remove_list` (a list of elements to be removed from the file). The function reads the initial contents of the file, removes the elements specified in the `remove_list`, and rewrites the file with the updated contents.
