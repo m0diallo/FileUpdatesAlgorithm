@@ -22,7 +22,7 @@ class TestUpdateFile(unittest.TestCase):
         remove_list = ["192.168.140.81", "192.168.203.198"]
         update_file(self.test_file.name, remove_list)
         
-        # Read the updated file? 
+        # Read the updated file 
         with open(self.test_file.name, "r") as file:
             updated_content = file.read()
         
